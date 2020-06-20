@@ -1,0 +1,21 @@
+html, body {
+    margin: 0 0;
+    font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, serif;
+}
+
+#configuration-container thead td {
+    font-weight: bold;
+}
+
+#configuration-template {
+    display: none;
+}
+
+.configuration-remove-button {
+    height: 16px;
+    width: 16px;
+    background-image: url("../img/icons/trash.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
